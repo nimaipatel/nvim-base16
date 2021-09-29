@@ -6,11 +6,11 @@ License: Same terms as Vim itself (see |license|)
 INTRODUCTION                                                    *nvim-base16*
 ===========================================================================
 
-All builtin colorschemes can be accessed with |:colorscheme|.
->
-    :colorscheme base16-gruvbox-dark-soft
-<
-Alternatively, you can provide a table specifying your colors to the setup
+This is a fork of https://github.com/RRethy/nvim-base16/ with the pre-built
+colorschemes removed to decrease the load time. People who use an external
+build tool like https://github.com/Misterio77/flavours can use this. 
+
+You can provide a table specifying your colors to the setup
 function.
 >
     local colorscheme = require('colorscheme')
@@ -20,143 +20,5 @@ function.
         base08 = '#e06c75', base09 = '#d19a66', base0A = '#e5c07b', base0B = '#98c379',
         base0C = '#56b6c2', base0D = '#0184bc', base0E = '#c678dd', base0F = '#a06949',
     })
-
-BUILTIN COLORSCHEMES                       *nvim-base16-builtin-colorschemes*
-===========================================================================
-
-Here is a list of all builtin colorschemes.
-
->
-    3024
-    apathy
-    ashes
-    atelier-cave-light
-    atelier-cave
-    atelier-dune-light
-    atelier-dune
-    atelier-estuary-light
-    atelier-estuary
-    atelier-forest-light
-    atelier-forest
-    atelier-heath-light
-    atelier-heath
-    atelier-lakeside-light
-    atelier-lakeside
-    atelier-plateau-light
-    atelier-plateau
-    atelier-savanna-light
-    atelier-savanna
-    atelier-seaside-light
-    atelier-seaside
-    atelier-sulphurpool-light
-    atelier-sulphurpool
-    atlas
-    bespin
-    black-metal-bathory
-    black-metal-burzum
-    black-metal-dark-funeral
-    black-metal-gorgoroth
-    black-metal-immortal
-    black-metal-khold
-    black-metal-marduk
-    black-metal-mayhem
-    black-metal-nile
-    black-metal-venom
-    black-metal
-    brewer
-    bright
-    brogrammer
-    brushtrees-dark
-    brushtrees
-    chalk
-    circus
-    classic-dark
-    classic-light
-    codeschool
-    cupcake
-    cupertino
-    darktooth
-    default-dark
-    default-light
-    darcula
-    dracula
-    eighties
-    embers
-    flat
-    fruit-soda
-    github
-    google-dark
-    google-light
-    grayscale-dark
-    grayscale-light
-    greenscreen
-    gruvbox-dark-hard
-    gruvbox-dark-medium
-    gruvbox-dark-pale
-    gruvbox-dark-soft
-    gruvbox-light-hard
-    gruvbox-light-medium
-    gruvbox-light-soft
-    harmonic-dark
-    harmonic-light
-    heetch-light
-    heetch
-    helios
-    hopscotch
-    horizon-dark
-    ia-dark
-    ia-light
-    icy
-    irblack
-    isotope
-    macintosh
-    marrakesh
-    materia
-    material-darker
-    material-lighter
-    material-palenight
-    material-vivid
-    material
-    mellow-purple
-    mexico-light
-    mocha
-    monokai
-    nord
-    ocean
-    oceanicnext
-    one-light
-    onedark
-    outrun-dark
-    papercolor-dark
-    papercolor-light
-    paraiso
-    phd
-    pico
-    pop
-    porple
-    railscasts
-    rebecca
-    schemer-dark
-    schemer-medium
-    seti
-    shapeshifter
-    snazzy
-    solarflare
-    solarized-dark
-    solarized-light
-    spacemacs
-    summerfruit-dark
-    summerfruit-light
-    synth-midnight-dark
-    tomorrow-night-eighties
-    tomorrow-night
-    tomorrow
-    tube
-    twilight
-    unikitty-dark
-    unikitty-light
-    woodland
-    xcode-dusk
-    zenburn
 
 vim:tw=78:ts=8:ft=help:norl:
